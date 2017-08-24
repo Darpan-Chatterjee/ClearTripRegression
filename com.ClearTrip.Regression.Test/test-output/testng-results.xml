@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="96969" started-at="2017-08-24T21:48:33Z" finished-at="2017-08-24T21:50:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="96969" started-at="2017-08-24T21:48:33Z" finished-at="2017-08-24T21:50:10Z">
+      <class name="com.ClearTrip.Regression.Hotel.TestCase.SearchHotels">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.ClearTrip.Regression.Hotel.TestCase.SearchHotels@1753acfe]" name="Setup" is-config="true" duration-ms="14323" started-at="2017-08-25T03:18:33Z" finished-at="2017-08-25T03:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="SearchHotelPage()[pri:0, instance:com.ClearTrip.Regression.Hotel.TestCase.SearchHotels@1753acfe]" name="SearchHotelPage" duration-ms="82428" started-at="2017-08-25T03:18:47Z" finished-at="2017-08-25T03:20:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchHotelPage -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.ClearTrip.Regression.Hotel.TestCase.SearchHotels@1753acfe]" name="Teardown" is-config="true" duration-ms="203" started-at="2017-08-25T03:20:10Z" finished-at="2017-08-25T03:20:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.ClearTrip.Regression.Hotel.TestCase.SearchHotels -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.ClearTrip.Regression.Hotel.TestCase.SearchHotels">
+        <methods>
+          <include name="Teardown"/>
+          <include name="Setup"/>
+          <include name="SearchHotelPage"/>
+        </methods>
+      </class> <!-- com.ClearTrip.Regression.Hotel.TestCase.SearchHotels -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

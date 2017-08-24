@@ -1,0 +1,3 @@
+com\ClearTrip\Regression\Hotel\TestCase\OpenClearTrip.class
+com\ClearTrip\Regression\Hotel\TestCase\BookHotel.class
+com\ClearTrip\Regression\Hotel\TestCase\SearchHotels.class
