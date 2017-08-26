@@ -3,6 +3,7 @@ package com.ClearTrip.Regression.UtilityMethods;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -108,6 +109,12 @@ public class UtilityMethod
 	public WebElement getLocator(String xpath){
 		WebDriverWait myWait = new WebDriverWait(GlobalVariable.driver, 10);
 		WebElement getElementXpath = myWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+		return getElementXpath;
+	}
+		
+	public List<WebElement> getLocators(String xpath)
+	{
+		List<WebElement> getElementXpath = GlobalVariable.driver.findElements(By.xpath(xpath));
 		return getElementXpath;
 	}
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="6.837" tests="2" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="61.056" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\bin"/>
     <property name="java.vm.version" value="25.141-b15"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Selenium Progs\Selenium Work\com.ClearTrip.Regression.Test"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\DARPAN\git\ClearTripRegressionLocal\com.ClearTrip.Regression.Test"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Selenium Progs\Selenium Work\com.ClearTrip.Regression.Test"/>
+    <property name="user.dir" value="C:\Users\DARPAN\git\ClearTripRegressionLocal\com.ClearTrip.Regression.Test"/>
     <property name="java.runtime.version" value="1.8.0_141-b15"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\endorsed"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="D:\Selenium Progs\Selenium Work\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5873186387522781353.tmp"/>
+    <property name="classworlds.conf" value="D:\Selenium Progs\Selenium Work\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7550915996979323715.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_141\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\oracle\product\10.2.0\db_1\bin;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\My Items\Software\Selenium jar\apache-ant-1.9.6-bin\apache-ant-1.9.6\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Skype\Phone\;C:\Maven\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin;C:\Program Files\Java\jdk1.8.0_141\bin;D:\My Items\Software\Selenium jar\libs;C:\Program Files\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -52,7 +52,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_141\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\Selenium Progs\Selenium Work\com.ClearTrip.Regression.Test\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\DARPAN\git\ClearTripRegressionLocal\com.ClearTrip.Regression.Test\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -60,6 +60,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="OpenClearTripPage" classname="com.ClearTrip.Regression.Hotel.TestCase.OpenClearTrip" time="1.316"/>
-  <testcase name="SearchHotelPage" classname="com.ClearTrip.Regression.Hotel.TestCase.SearchHotels" time="5.521"/>
+  <testcase name="OpenClearTripPage" classname="com.ClearTrip.Regression.Hotel.TestCase.OpenClearTrip" time="1.85"/>
+  <testcase name="SearchHotelPage" classname="com.ClearTrip.Regression.Hotel.TestCase.SearchHotels" time="26.369"/>
+  <testcase name="BookHotelPage" classname="com.ClearTrip.Regression.Hotel.TestCase.BookHotel" time="32.837"/>
 </testsuite>

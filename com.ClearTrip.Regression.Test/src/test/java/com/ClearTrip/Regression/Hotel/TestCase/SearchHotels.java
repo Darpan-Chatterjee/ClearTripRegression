@@ -2,7 +2,6 @@ package com.ClearTrip.Regression.Hotel.TestCase;
 
 import java.util.List;
 import java.util.Properties;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -53,16 +52,14 @@ public class SearchHotels {
 			String CurrTitle2=GlobalVariable.driver.getTitle();
 			if(CurrTitle2.contains("Book Cheap Hotels"))
 			{
-				System.out.println("Search Hotel Page is Opened");
-				util.Screenshot(screenshotPath,"SearchHotelSite");
 				util.waitInSecond(2);
 				HotelSearchPage srchObj = new HotelSearchPage();
 				srchObj.HotelLocation(loc1, loc2);
 				srchObj.datePicker(startDt, endDt);
 				srchObj.personDetails(personName,child,age);
-				srchObj.ClickSearch();
-
-				List<WebElement> wb = GlobalVariable.driver.findElements(By.xpath("//h2[@class='truncate span span24']/a[@class='hotelDetails']"));
+				util.Screenshot(screenshotPath,"SearchHotelSite");
+				util.waitInSecond(1);
+				List<WebElement> wb=srchObj.ClickSearch();
 				System.out.println("Hotels Name Are :");
 				for(WebElement el : wb)
 				{

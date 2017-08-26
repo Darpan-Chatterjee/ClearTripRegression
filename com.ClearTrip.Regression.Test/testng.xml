@@ -4,6 +4,7 @@
     <classes>
       <class name="com.ClearTrip.Regression.Hotel.TestCase.OpenClearTrip"/>
       <class name="com.ClearTrip.Regression.Hotel.TestCase.SearchHotels"/>
+       <class name="com.ClearTrip.Regression.Hotel.TestCase.BookHotel"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
